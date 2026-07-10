@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: false,
+		enable: true,
 		src: "assets/images/demo-banner.png",
 		position: "center",
 		credit: {
@@ -50,7 +50,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/demo-avatar.png", // Replace with your own avatar later
 	name: "Lyn_3303",
-	bio: "软件工程学生 · 代码、记录、分享",
+	bio: "学生 · record",
 	links: [
 		{
 			name: "GitHub",
@@ -63,7 +63,7 @@ export const profileConfig: ProfileConfig = {
 			url: "https://www.zhihu.com/people/zh-38-87",
 		},
 		{
-			name: "B站",
+			name: "bilibili",
 			icon: "simple-icons:bilibili",
 			url: "https://space.bilibili.com/1470153528",
 		},
